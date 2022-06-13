@@ -1,0 +1,247 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Poppins:100,200,300,regular,italic,500,600,700,800,900" media="all">
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <title></title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Poppins,sans-serif;
+            font-size: 15px;
+            line-height: 24px;
+            background-color: #f1efe9;
+        }
+
+       
+
+           
+        .imgwid {
+            width: 120px;
+            height: 60px;
+        }
+
+        nav {
+            height: 55px;
+            box-shadow: 0 0 3px 0 rgba(0,0,0,.1);
+           /* position: fixed;
+            top: 0; 
+            width: 100%;*/
+        }
+        .anavcolor {
+            background-color: #1c2749;
+        }
+        .backimg {
+            background-image: url('imges/5a828caebd255a0001fa8674_Header-3.jpg');
+            width: 100%;
+            height: 100%;
+            background-position:50% 50%;
+            background-size:cover;
+            background-repeat: no-repeat;
+            align-items: center;
+           /* display:flex;
+            justify-content:center;
+            align-items:center;
+            */
+        }
+        .conpad {
+            text-align: center;
+            padding-top: 266px;
+            padding-left: 3em;
+            padding-bottom: 290px;
+            width:720px;
+        }
+        /*.fontsiz {
+         font-size:50px;
+  
+     
+        }*/
+        .color {
+            color: #1c2749;
+           
+        }
+        #opacity{opacity:0.9;
+                 font-weight:lighter;
+        }
+        .color h2{
+                 
+            color: #1c2749;
+        }
+        .cont{
+            width:620px;
+        }
+        .bbt {
+            background-color: #e9895b;
+         
+           
+        }
+        .widaa {
+            width: 210px;
+            height: 45px;
+        
+        }
+        .widbbt{color:#fff;}
+        .acol {
+            color:#8f7a74;
+        }
+
+    </style>
+</head>
+<body>
+    <div class=" backimg container-fluid     d-flex  justify-content-center align-items-center">
+        <nav class="navbar navbar-light navbar-expand-md shadow py-0 position-fixed top-0 w-100 bg-white ">
+            <a href="Navbar.html" class="navbar-brand ">
+
+                <img src="imges/5a82a3ec71acd50001b1cb2b_Logo.svg" class="imgwid ps-3 " />
+
+            </a>
+
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainnav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end " id="mainnav">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item m-3"><a href="#" class="nav-link ">Home</a></li>
+                    <li class="nav-item  m-3"><a href="#" class="nav-link">Products</a></li>
+                    <li class="nav-item  m-3"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item  m-3"><a href="#" class="nav-link">Contact</a></li>
+
+                </ul>
+                <a class="text-decoration-none text-white bg-dark h-100 py-3 px-3  anavcolor "> Book appointment </a>
+            </div>
+        </nav>
+
+
+        
+            <div class="container d-sm-flex justify-content-center align-items-center conpad  mx-auto">
+                <div class="cont mx-auto">
+                    <h1 class="fw-bold  fs-1 fontsiz"><span class="color">Beauty Experts</span></h1>
+               
+                        <h2 class="fw-light " id="opacity"><span class="color "> &nbsp; Serenity, a professional Beauty &amp; Spa Salon in New York City.</span></h2>
+                   
+                    <div class="d-flex justify-content-center mt-5 ">
+                        <div class="me-3 pt-2  bbt widaa "><a href="#"  class="text-decoration-none widbbt pt-1">Tell me more</a></div>
+                        <div class="pt-2 widaa bg-white "><a href="#" class="text-decoration-none d-inline-block acol">Book appointment </a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="bg-white">
+        <div class="container">
+            <div>
+                <div>
+                    <div><h3 class="display-4">Who are we?</h3></div>
+                    <div>
+                        <h6>Beauty Experts</h6>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.</p>
+                    </div>
+
+                    <div>
+                        <h6>Massage Experts</h6>
+                        <p>Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero.</p>
+                    </div>
+                    <div></div>
+
+                </div>
+                <div>
+                    <h5></h5>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--<div class="container-fluid">
+        <div class="container">
+            <div>
+                <h1>Beauty Experts</h1>
+                <h2>Serenity, a professional Beauty &amp; Spa Salon in New York City.</h2>
+                <div>
+                    <div><a>Tell me more</a></div>
+                    <div><a>Book appointment</a></div>
+                </div>
+            </div>
+    </div>
+
+    </div>
+
+
+    <div>
+        <div class="container">
+            <div>
+                <div>
+                    <div><h3>Who are we?</h3></div>
+                    <div>
+                        <div>Beauty Experts</div>
+                        <div>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim.</p></div>
+                    </div>
+                </div>
+                <div>
+                    <div>Massage Experts</div>
+                    <div>
+                    <p>Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero.</p></div>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,266 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Poppins:100,200,300,regular,italic,500,600,700,800,900" media="all">
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <title></title>
+    <style>
+        * {box-sizing: border-box; }
+
+        body {
+            font-family: Poppins,sans-serif;
+            font-size: 15px;
+            line-height: 24px;
+            /*background-color: #f1efe9;*/
+        }
+        .imgwid { width: 120px;
+                   height: 60px;}
+
+        nav {
+            height: 55px;
+            box-shadow: 0 0 3px 0 rgba(0,0,0,.1);
+           /* position: fixed;
+            top: 0; 
+            width: 100%;*/
+        }
+        .anavcolor {
+            background-color: #1c2749;
+        }
+        .backimg {
+            background-image: url('imges/5a828caebd255a0001fa8674_Header-3.jpg');
+            background-position:50% 50%;
+            background-size:cover;
+            background-repeat: no-repeat;
+            align-items: center;
+           /* display:flex;
+            justify-content:center;
+            align-items:center;
+            */
+        }
+        .conpad {
+            text-align: center;
+            padding-top: 266px;
+            padding-left: 3em;
+            padding-bottom: 290px;
+            width:720px;
+        }
+        /*.fontsiz {
+         font-size:50px;
+  
+     
+        }*/
+        .color {
+            color: #1c2749;
+          
+        }
+        #opacity{opacity:0.9;
+                 font-weight:lighter;
+        }
+        .color h2{
+                 
+            color: #1c2749;
+        }
+        .cont{
+            width:620px;
+        }
+        .bbt {
+            background-color: #e9895b;
+         
+           
+        }
+        .widaa {
+            width: 210px;
+            height: 45px;
+        
+        }
+        .widbbt{color:#fff;}
+        .acol {
+            color:#8f7a74;
+        }
+        .boxshdow{
+            box-shadow:14px 14px 60px -10px #cecb;
+        }
+        .colororang {
+            color: #e9895b;
+        }
+        .pstyle {
+            margin-top: 10px;
+            color: #8f7a74;
+            font-size: 13px;
+        }
+        .divint {
+            height: 440px;
+            padding: 55px;
+            background-color:#f3f1ec;
+            box-shadow: 7px 7px 70px -10px #c0a9a0;
+        }
+        .divin{
+         padding-top:40px;
+         padding-right:70px;
+         padding-left:70px;
+         padding-bottom:40px;
+        }
+        .imgopicity {
+            background-image: url('imges/5a82927571acd50001b1be2f_Massage.png');
+            position: absolute;
+            left: -500px;
+            top: -12px;
+          background-color:rgba(255, 255, 255, 0.51);
+         
+          /*  opacity: .34;*/
+       
+            
+        }
+        .imgopicity {
+            opacity:0.2;
+        }
+        /*.imggullry{
+           
+           position: relative;
+         left: -90px;
+         top: 30px;
+        z-index:30;
+         width: 390px;
+     height: 205px;
+}
+
+        .divimg1 {
+            background-image: url('imges/5a82a04871acd50001b1c96e_Nails.jpg');
+            position:absolute;
+              top: 80px;
+            z-index:6;
+            right: 0;
+            height: 200px;
+            width:170px;
+             /*box-shadow: 14px 14px 40px -10px rgba(0,0,0,.4);*/
+             /*background-color: #1c2749;
+
+        }
+        .divimg2 {
+            background-image: url('imges/5a82927571acd50001b1be2f_Massage.png');
+              position:absolute;
+              top:100px;
+              z-index:30;
+              background-size:cover;
+              background-position: 50% 50%;
+        }
+        .divimg3 {
+            background-image: url('imges/5a82a03f72707c000122f4ac_Mask.jpg');
+              position:absolute;
+        }
+        .divimg4 {
+            background-image: url('imges/5a82a18b25c8bc00017d36be_pexels-photo-301367.jpeg');
+              position:absolute;
+        }*/
+        .divcont{
+            position:relative;
+             left: -90px;
+             top: 30px;
+             z-index:30;
+             width:500px;
+             height:500px;
+           
+             display:flex;
+             flex-wrap:nowrap;
+             justify-content:center;
+             align-items:center;
+             margin-left:50px;
+        }
+        /*.div1 {*/
+            /*background-image: url('imges/5a82a03f72707c000122f4ac_Mask.jpg');
+            background-size:cover;
+           
+           
+        }
+        .div2 {
+            background-image: url('imges/5a82a04871acd50001b1c96e_Nails.jpg');
+        }
+        .div3 {
+            background-image: url('imges/5a82927571acd50001b1be2f_Massage.png');
+        }
+        .div4 {
+            background-image: url('imges/5a82a18b25c8bc00017d36be_pexels-photo-301367.jpeg');
+        }*/
+            .div1 img{
+                position:absolute;
+                width:267px;
+                height:200px;
+                top:-100px;   
+                    left:2960px;
+                
+            }
+            .div2 img{
+                position:absolute;
+                 width:170px;
+                height:200px;
+               top:-50px;
+               left:442px;
+                
+                
+            }
+            .div3 img{
+                position:absolute;
+                 width:170px;
+                height:200px;
+                top:200px;
+                
+            }
+            .div4 img{
+                 width:170px;
+                height:200px;
+                top:90px;
+                
+            }
+    </style>
+</head>
+<body>
+    <div class=" backimg container-fluid     d-flex  justify-content-center align-items-center">
+        <nav class="navbar navbar-light navbar-expand-md shadow py-0 position-fixed top-0 w-100 bg-white ">
+            <a href="Navbar.html" class="navbar-brand ">
+
+                <img src="imges/5a82a3ec71acd50001b1cb2b_Logo.svg" class="imgwid ps-3 " />
+
+            </a>
+
+
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainnav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end " id="mainnav">
+                <ul class="navbar-nav">
+
+                    <li class="nav-item m-3"><a href="#" class="nav-link ">Home</a></li>
+                    <li class="nav-item  m-3"><a href="#" class="nav-link">Products</a></li>
+                    <li class="nav-item  m-3"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item  m-3"><a href="#" class="nav-link">Contact</a></li>
+
+                </ul>
+                <a class="text-decoration-none text-white bg-dark h-100 py-3 px-3  anavcolor "> Book appointment </a>
+            </div>
+        </nav>
+
+
+
+        <div class="container d-sm-flex justify-content-center align-items-center conpad  mx-auto">
+            <div class="cont mx-auto">
+                <h1 class="fw-bold  fs-1 fontsiz"><span class="color">Beauty Experts</span></h1>
+
+                <h2 class="fw-light " id="opacity"><span class="color "> &nbsp; Serenity, a professional Beauty &amp; Spa Salon in New York City.</span></h2>
+
+                <div class="d-flex justify-content-center mt-5 ">
+                    <div class="me-3 pt-2  bbt widaa "><a href="#" class="text-decoration-none widbbt pt-1">Tell me more</a></div>
+                    <div class="pt-2 widaa bg-white "><a href="#" class="text-decoration-none d-inline-block acol">Book appointment </a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-white contflimg position-relative">
+        <div class="container con
